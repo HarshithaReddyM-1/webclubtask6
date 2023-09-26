@@ -73,15 +73,15 @@
         }
 
         //Program6
-        function sorting(inputStr) 
+        function sorting(inputStrg) 
         {
-            let charArr = inputStr.split('');
+            let charArr = inputStrg.split('');
             charArr.sort();
             let sortedStr = charArr.join('');
             return sortedStr;
         }
-        let inputStr = 'webmaster';
-        let result = sorting(inputStr);
+        let inputStrg = 'webmaster';
+        let result = sorting(inputStrg);
         console.log(result);
 
         //Program7
@@ -91,7 +91,7 @@
             const capitalizedWords = words.map(word => {return word.charAt(0).toUpperCase() + word.slice(1);});
             return capitalizedWords.join(' ');
         }
-        const inputString = 'the quick brown fox';
+        const inputStr = 'the quick brown fox';
         const capitalizedStr = capitalizingWords(inputStr);
         console.log(capitalizedStr);  
 
